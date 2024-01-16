@@ -1,16 +1,13 @@
 # Web Portfolio
 
-## Overview
+# Overview
 This repository hosts the code for my personal web portfolio, showcasing my professional projects and skills. The site is crafted with HTML, CSS, and JavaScript, ensuring a responsive and interactive experience.
 
-## Features
+# Features
 - **Responsive Design**: Adapts to various device sizes for optimal viewing.
 - **Interactive UI**: JavaScript-driven interactivity for an engaging user experience.
 - **Project Showcase**: Highlights my key projects and technical competencies.
 
-## Getting Started
-To run this project locally for development and testing, follow these steps:
-
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Safari, Edge).
-- A code editor (VS Code, Sublime Text, etc.).
+# Prerequisites
+- A modern web browser 
+- A code editor 
