@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+    <!-- Include head with custom title and description -->
+    {{> head
+        title="Page Title"
+        description="Page description for SEO and social sharing"
+    }}
+    
+    <body class="is-preload">
+        <!-- Wrapper -->
+        <div id="wrapper">
+            
+            <!-- Include header and navigation -->
+            {{> header}}
+
+            <!-- Main -->
+            <div id="main">
+                <!-- Your page content goes here -->
+                <section class="post">
+                    <header class="major">
+                        <span class="date">Date Here</span>
+                        <h1>Page Title</h1>
+                        <p>Page subtitle or description</p>
+                    </header>
+                    
+                    <!-- Page specific content -->
+                    <div class="content">
+                        Your content here
+                    </div>
+                </section>
+            </div>
+
+            <!-- Include footer and scripts -->
+            {{> footer}}
+            
+        </div>
+    </body>
+</html>
+
+<!--
+HOW TO USE THIS TEMPLATE:
+
+1. Copy this template for new pages
+2. Replace the following placeholders:
+   - {{title}} - Page title
+   - {{description}} - Page description
+   - Date Here - Publication date
+   - Your content here - Page specific content
+
+3. The template uses Handlebars-style includes:
+   {{> head title="..." description="..."}}
+   {{> header}}
+   {{> footer}}
+
+4. Components are located in:
+   - /components/head.html
+   - /components/header.html
+   - /components/footer.html
+
+5. All paths (css, js, images) use root-relative paths (/assets/, /images/)
+
+6. For active nav links, add class="active" to the appropriate li in header.html
+--> 
